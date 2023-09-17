@@ -1,31 +1,121 @@
-<p>
-    Nuestros Deliciosos Quesos Artesanales
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Mi hoja de estilos-->
+    <link rel="stylesheet" href="estilos_productos.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Nuestros Productos</title>
+</head>
+<body>
+    <div class="container">
+        <h3 class="text-center my-4">Nuestros Deliciosos Quesos Artesanales</h3>
+        <p>
+            En el corazón de nuestra fábrica, nuestros jóvenes empleados se esfuerzan por crear los quesos artesanales más deliciosos. Su pasión y cariño se reflejan en cada variedad que producimos, y aquí te contamos un poco más sobre ellos.
+        </p>
 
-En el corazón de nuestra fábrica, nuestros jóvenes empleados se esfuerzan por crear los quesos artesanales más deliciosos. Su pasión y cariño se reflejan en cada variedad que producimos, y aquí te contamos un poco más sobre ellos.
+        <div class="row mt">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card " style="width: 18rem;">
+                    <img src="https://imgs.search.brave.com/l4l6byU5p58nlGC76JnpWN8ftOCLFX4eH8mB5mawUkk/rs:fit:560:320:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9jL2M0L0dv/dWRhLmpwZy81MTJw/eC1Hb3VkYS5qcGc" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Queso Gouda</h5>
+                        <h6 class="mb-2 text-muted">- El Clásico con un Toque Joven</h6>
+                        <p class="card-text" id="tex_1">
+                            Nuestro queso Gouda es un verdadero clásico, pero lo que lo hace especial es la energía y la juventud que nuestros empleados ponen en cada lote. Su textura suave y su sabor ligeramente dulce son el resultado de cuidadosa atención y amor.
+                        </p>
+                        <button onclick="mostrar_mas('tex_1')">Mostrar mas</button>
+                    </div>
+                </div>
+            </div>
 
-Queso Gouda - El Clásico con un Toque Joven
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://imgs.search.brave.com/Pub93Lc2QzQSJZJKfOWTdhuCq2q13gf3sGvxpZ15EWg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9taXNz/dmlja2llLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMS8w/NC9xdWVzby1hbmVq/by1zdWJzdGl0dXRl/cy5qcGc" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Queso Cheddar Añejo</h5>
+                        <h6 class="mb-2 text-muted">- La Paciencia en su Máxima Expresión</h6>
+                        <p class="card-text" id="tex_2">
+                            Nuestro queso Cheddar añejo es el fruto de la paciencia y el esfuerzo. Cada bloque se madura durante meses, y nuestros jóvenes empleados monitorean cada etapa con cariño. El resultado es un Cheddar fuerte y sabroso que habla de dedicación.
+                        </p>
+                        <button onclick="mostrar_mas('tex_2')">Mostrar mas</button>
+                    </div>
+                </div>
+            </div>
 
-Nuestro queso Gouda es un verdadero clásico, pero lo que lo hace especial es la energía y la juventud que nuestros empleados ponen en cada lote. Su textura suave y su sabor ligeramente dulce son el resultado de cuidadosa atención y amor.
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://imgs.search.brave.com/fe6PJ6soj-ujbY3p97pkTsyutNlvMtoShW4bj08YAxs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly92aW5v/bWFub3MuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIwLzEx/L2dvYXQtMTgxODU1/Mi5qcGc" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Queso de Cabra</h5>
+                        <h6 class="mb-2 text-muted">- La Innovación en su Máxima Expresión</h6>
+                        <p class="card-text" id="tex_3">
+                            Nuestra línea de quesos de cabra es un reflejo de la creatividad y la innovación de nuestros jóvenes empleados. Desde los suaves y frescos hasta los intensos y sazonados, estos quesos llevan el sello distintivo de la juventud y el entusiasmo.
+                        </p>
+                        <button onclick="mostrar_mas('tex_3')">Mostrar mas</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-Queso Cheddar Añejo - La Paciencia en su Máxima Expresión
+        <div class="row mt-3">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://imgs.search.brave.com/qPM3xacMi4z0CqDhtqNSpAGdJzTpo7Xj4FEXhS2pBnM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LWNvY2luYS5s/ZWN0dXJhcy5jb20v/bWVkaW8vMjAyMy8w/Ny8yMC9zYW5kd2lj/aC1mcmlvLWRlLWNo/b2NvbGF0ZV9kNDg3/NjNmOV82MDB4NjAw/LmpwZw" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Queso de Chocolate y Nuez</h5>
+                        <h6 class="mb-2 text-muted">- Una locura hecha realidad</h6>
+                        <p class="card-text" id="tex_4">
+                            El resultado es un queso cremoso con un sabor a chocolate suave y un toque crujiente de las nueces. Es ideal para acompañar postres.
+                        </p>
+                        <button onclick="mostrar_mas('tex_4')">Mostrar mas</button>
+                    </div>
+                </div>
+            </div>
 
-Nuestro queso Cheddar añejo es el fruto de la paciencia y el esfuerzo. Cada bloque se madura durante meses, y nuestros jóvenes empleados monitorean cada etapa con cariño. El resultado es un Cheddar fuerte y sabroso que habla de dedicación.
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://imgs.search.brave.com/eoGBQkvh6Ugx9Rch7iclGVp1_iwlruemHlhzBxiLEZw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/b2xpdmV0dG8uY29t/LmNvL3dwLWNvbnRl/bnQvdXBsb2Fkcy91/c29zLWRlbC1hY2Vp/dGUtZGUtb2xpdmEt/aW1hZ2VuLWRlc3Rh/Y2FkYS00MDB4MzAz/LmpwZz94MzE4Nzc" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Queso de Albahaca y Tomate Seco</h5>
+                        <h6 class="mb-2 text-muted">- Un sabor fresco y herbal</h6>
+                        <p class="card-text" id="tex_5">
+                            Este queso combina la frescura de la albahaca con la intensidad de los tomates secos. Es perfecto para acompañar una tabla de quesos o para agregar a ensaladas y sándwiches.
+                        </p>
+                        <button onclick="mostrar_mas('tex_5')">Mostrar mas</button>
+                    </div>
+                </div>
+            </div>
 
-Queso de Cabra - La Innovación en su Máxima Expresión
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://imgs.search.brave.com/fe6PJ6soj-ujbY3p97pkTsyutNlvMtoShW4bj08YAxs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly92aW5v/bWFub3MuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIwLzEx/L2dvYXQtMTgxODU1/Mi5qcGc" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Queso de Cabra</h5>
+                        <h6 class="mb-2 text-muted">- La Innovación en su Máxima Expresión</h6>
+                        <p class="card-text" id="tex_6">
+                            Nuestra línea de quesos de cabra es un reflejo de la creatividad y la innovación de nuestros jóvenes empleados. Desde los suaves y frescos hasta los intensos y sazonados, estos quesos llevan el sello distintivo de la juventud y el entusiasmo.
+                        </p>
+                        <button onclick="mostrar_mas('tex_6')">Mostrar mas</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <b>Variedad y Creatividad - Nuestro Sello Personal</b>
+        <p>
+            En nuestra fábrica, la variedad y la creatividad son nuestra firma. Nuestros jóvenes empleados experimentan con ingredientes naturales para crear nuevos sabores y combinaciones sorprendentes. Cada queso lleva consigo la historia de su elaboración única.
+        </p>
+        <b>Nuestro Compromiso con la Calidad</b>
+        <p>
+            Cada queso que producimos es una manifestación de nuestra pasión y dedicación. Desde el ordeño de las vacas hasta la creación de sabores únicos, los jóvenes empleados cuidan cada paso del proceso con amor y entusiasmo.
+            Así que, cuando pruebes nuestros quesos, no solo disfrutas del sabor excepcional, sino que también experimentas la pasión y el cariño de nuestra joven y dedicada familia de empleados. ¡Descubre el sabor de la juventud en cada bocado!
+        </p>
 
-Nuestra línea de quesos de cabra es un reflejo de la creatividad y la innovación de nuestros jóvenes empleados. Desde los suaves y frescos hasta los intensos y sazonados, estos quesos llevan el sello distintivo de la juventud y el entusiasmo.
-
-Queso Azul - La Pasión por los Sabores Intensos
-
-Nuestro queso azul es una obra maestra de sabores audaces. Los jóvenes empleados son los guardianes de este queso intenso y marmoleado, cuidándolo con cariño hasta que cada bocado sea una explosión de sabor.
-
-Variedad y Creatividad - Nuestro Sello Personal
-
-En nuestra fábrica, la variedad y la creatividad son nuestra firma. Nuestros jóvenes empleados experimentan con ingredientes naturales para crear nuevos sabores y combinaciones sorprendentes. Cada queso lleva consigo la historia de su elaboración única.
-
-Nuestro Compromiso con la Calidad
-
-Cada queso que producimos es una manifestación de nuestra pasión y dedicación. Desde el ordeño de las vacas hasta la creación de sabores únicos, los jóvenes empleados cuidan cada paso del proceso con amor y entusiasmo.
-
-Así que, cuando pruebes nuestros quesos, no solo disfrutas del sabor excepcional, sino que también experimentas la pasión y el cariño de nuestra joven y dedicada familia de empleados. ¡Descubre el sabor de la juventud en cada bocado!
-</p>
+        <button class="btn btn-primary">Regresar</button>
+    </div>
+</body>
+    <!--Mi hoja de scripts-->
+    <script src="script_productos.js"></script>
+</html>

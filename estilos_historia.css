@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(154,205,50);
+    background: linear-gradient(180deg, rgba(154,205,50,1) 43%, rgba(255,255,255,0.5718662464985995) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}

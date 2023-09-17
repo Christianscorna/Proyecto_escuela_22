@@ -1,0 +1,16 @@
+.card-text {
+    max-height: 30px;
+    overflow: hidden;
+}
+
+button {
+    border: none;
+    text-decoration: underline;
+    color: rgb(13, 151, 151);
+    background-color: #fff;
+}
+
+img {
+    width: 150px;
+    height: 160px;
+}
