@@ -47,13 +47,27 @@ li {
 }
 
 .pie > li:hover {
-    transform: scale(1.1);
+    transform: translateX(-12px);
+    color: #FFF;
+    text-shadow: 0 0 6px #124503;
 }
 
 .proceso > img:hover {
-    opacity: .9;
+    opacity: .8;
+    transform: scale(0.95);
 }
 
+.caja-1 {
+    width: 50%;
+    display: flex;
+}
 
+.caja-2 {
+    width: 50%;
+    display: flex;
+}
 
-
+.img-icon {
+    width: 24px;
+    height: 24px;
+}
