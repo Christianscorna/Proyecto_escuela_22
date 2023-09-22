@@ -26,22 +26,106 @@ h2 {
 .contenedor_hijo > a {
     text-decoration: none;
     color: #000;
+    transition: .3s;
 }
 
-.contenedor_hijo > a:hover {
-    animation-name: movement_1;
-    animation-duration: .5s;
+.ant:hover {
+    transform: translateX(-12px);
+}
+
+.sig:hover {
+    transform: translateX(12px);;
 }
 
 .reves {
     transform: rotate(180deg);
 }
 
-@keyframes movement_1 {
-    0% {
-        transform: translateY(0px);
-    }
-    100% {
-        transform: translateY(-5px);
+.barra {
+    background-color: #126503;
+    height: 3px;
+    width: 100%;
+    margin-bottom: 12px;
+    display: block;
+    border-radius: 10px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 10px;
+    padding: 20px 0;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+.galeria a:hover img{
+    filter: blur(1px);
+    transform: rotate(-5deg) scale(1.1);
+}
+
+.galeria img {
+    width: 100%;
+    vertical-align: top;
+    height: 220px;
+    /*Para no perder la calidad le ponemos la siguiente propiedad:*/
+    object-fit: cover;
+    transition: transform .3s;
+}
+
+.caja {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: transform .5s ease-in-out;
+}
+
+.caja:target {
+    transform: scale(1);
+}
+
+.cerrar {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 30px;
+    border-radius: 50%;
+    background: red;
+    height: 30px;
+    width: 30px;
+    line-height: 22px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.siguiente {
+    position: relative;
+    color: #FFF;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .galeria {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 }

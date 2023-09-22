@@ -23,20 +23,15 @@ img {
 .contenedor_hijo > a {
     text-decoration: none;
     color: #000;
+    transition: .3s;
 }
 
-.contenedor_hijo > a:hover {
-    animation-name: movement_1;
-    animation-duration: .5s;
+.ant:hover {
+    transform: translateX(-12px);
 }
 
-@keyframes movement_1 {
-    0% {
-        transform: translateY(0px);
-    }
-    100% {
-        transform: translateY(-5px);
-    }
+.sig:hover {
+    transform: translateX(12px);;
 }
 
 .contenedor_hijo > a > img {
